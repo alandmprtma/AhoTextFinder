@@ -31,7 +31,24 @@ The application features a user-friendly graphical interface that allows users t
 
 ## 🗂️ Program Structure
 ```bash
-
+.
+├── README.md
+├── assets
+│   ├── json_page.png
+│   ├── json_result.png
+│   ├── manual_page.png
+│   ├── manual_result.png
+│   └── textfinder-removebg-preview.png
+├── img
+├── src
+│   └── aho.py
+└── test
+    ├── input1.json
+    ├── input2.json
+    ├── input3.json
+    ├── input4.json
+    ├── input5.json
+    └── input6.json
 ```
 
 ## 🧙 Algorithms 
@@ -49,6 +66,12 @@ The Aho-Corasick algorithm is an efficient method for searching multiple pattern
 - <b>Multi-Pattern Matching:</b> It’s well-suited for cases where multiple patterns need to be matched simultaneously.
 
 ## 🛠️ Configuration Guide
+1. Clone the repository to your local files. Access the repository [here](repository-link).
+2. Make sure to install Python Programming Language. You can access the Python Programming Language Installer [here](https://www.python.org/downloads/). Make sure to add PATH during installation on your device.
+3. Execute `pip install flet` and also `pip install graphviz` to set the application dependencies.
+4. You also need to install the graphviz to your device. You can access the graphviz binary program [here](https://graphviz.org/download/). Make sure to add PATH during installation on your device.
+5. Open the terminal and ensure that the directory is set to `AhoTextFinder`.
+6. Execute `flet run "src/aho.py"` to command prompt / terminal.
 
 ## 🏃‍♂️ How To Run
 

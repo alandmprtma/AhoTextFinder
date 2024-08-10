@@ -88,7 +88,7 @@ class AhoCorasick:
 
 def main(page: ft.Page):
     page.bgcolor = "#0A162C"
-    page.title = "Aho-Corasick Algorithm"
+    page.title = "Aho-Corasick Text Finder"
     page.window_width = 800
     page.window_height = 600
     page.window_resizable = False

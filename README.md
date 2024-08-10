@@ -1,5 +1,9 @@
+<div align="center">
+  <img src="./assets/textfinder-removebg-preview.png" alt="Logo" width="350"/>
+</div>
+
 # 🔍 Aho-Corasick Text Finder
-Implementasikan algoritma Aho-Corasick untuk mencari suatu set string dari query teks tertentu
+Aho-Corasick algorithm to search a set of strings from a given text query
 ## 📝 Application Description
 ### Overview
 This application leverages the Aho-Corasick algorithm to efficiently search for and match multiple string patterns within a given text. Ideal for handling large datasets, such as DNA sequences or malware code signatures, this tool builds a trie-based automaton offline. Once constructed, this automaton facilitates rapid, online text searches without the need for tedious index-by-index comparisons.
@@ -74,6 +78,24 @@ The Aho-Corasick algorithm is an efficient method for searching multiple pattern
 6. Execute `flet run "src/aho.py"` to command prompt / terminal.
 
 ## 🏃‍♂️ How To Run
+1. Access The Aho-Corasick window page on your device.
+2. You can choose the type of program input start from Manual Input" and "Upload JSON".
+3. Once you click the type of program input that you desire, you can start by input text, pattern or upload the JSON file.
 
 ## 📸 Screenshots
-
+<div align="center">
+  <img src="./assets/manual_page.png" alt="Manual Input Page" width="250"/>
+  <p><i>Manual Input Page</i></p>
+</div>
+<div align="center">
+  <img src="./assets/json_page.png" alt="JSON Upload Page" width="250"/>
+  <p><i>JSON Upload Page</i></p>
+</div>
+<div align="center">
+  <img src="./assets/manual_result.png" alt="Manual Input Result" width="250"/>
+  <p><i>Manual Input Result</i></p>
+</div>
+<div align="center">
+  <img src="./assets/json_result.png" alt="JSON Upload Result" width="250"/>
+  <p><i>JSON Upload Result</i></p>
+</div>
